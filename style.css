@@ -10,10 +10,10 @@
   display: block;
   text-align: right;
 }
-.article img {
+.article__img {
   width: 100%;
 }
-.article .more_inf {
+.article__tag {
   font-family: fantasy, cursive;
 }
 
