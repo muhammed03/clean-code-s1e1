@@ -33,7 +33,7 @@
             </button>
           </li>
           <li class="edit-mode">
-            <input type="checkbox">
+            <input type="checkbox" class="section__checkbox">
             <label class="task">Go Shopping</label>
             <input type="text" value="Go Shopping" class="task section__input">
             <button class="section__btn edit">Save</button>
@@ -43,17 +43,19 @@
           </li>
         </ul>
       </div>
-      <h3>Completed</h3>
-      <ul id="completed-tasks">
-        <li>
-          <input type="checkbox" checked>
-          <label class="task">See the Doctor</label>
-          <input type="text" class="task">
-          <button class="section__btn edit">Edit</button>
-          <button class="section__btn delete">
-            <img src="./remove.svg"></button>
-        </li>
-      </ul>
+      <div class="section completed">
+        <h3 class="section__title">Completed</h3>
+        <ul id="completed-tasks">
+          <li>
+            <input type="checkbox" checked>
+            <label class="task">See the Doctor</label>
+            <input type="text" class="task">
+            <button class="section__btn edit">Edit</button>
+            <button class="section__btn delete">
+              <img src="./remove.svg"></button>
+          </li>
+        </ul>
+      </div>
     </main>
   </div>
   <script  SRC="app.js"></script>
