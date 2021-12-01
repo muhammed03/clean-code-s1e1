@@ -140,8 +140,16 @@ button .delete img {
   transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
-  transform: rotateZ(0);
+.delete img
+{
+  transform: rotateZ(45deg);
+  transition: 300ms ease-in ;
+}
+
+.delete:hover 
+img
+{
+  transform: rotateZ(0deg);
 }
 
 /* Completed */
