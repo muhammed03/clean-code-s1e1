@@ -2,6 +2,7 @@
 .app {
   background-color: #f8f8f8;
   color: #333;
+  height: 100vh;
   font-family: Lato, sans-serif;
 }
 .article {
@@ -30,7 +31,7 @@
 }
 
 .task {
-  width: 56%;
+  /* width: 56%; */
   display: inline-block;
   flex-grow: 1;
 }
